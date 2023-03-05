@@ -1,44 +1,44 @@
 
             Feature workclass==State-gov:
-            	precision: 0.9589442815249267'
-            	recall: 0.9263456090651558
-            	beta: 0.9423631123919308
+            	precision: 0.9681159420289855'
+            	recall: 0.9461756373937678
+            	beta: 0.9570200573065903
 
             
             Feature workclass==Self-emp-not-inc:
-            	precision: 0.9562594268476622'
-            	recall: 0.8756906077348067
-            	beta: 0.9142033165104543
+            	precision: 0.9701492537313433'
+            	recall: 0.8977900552486188
+            	beta: 0.9325681492109038
 
             
             Feature workclass==Private:
-            	precision: 0.9512698740450134'
-            	recall: 0.928269192020955
-            	beta: 0.9396287986946766
+            	precision: 0.9571309075700544'
+            	recall: 0.922224461011485
+            	beta: 0.9393535146228835
 
             
             Feature workclass==Federal-gov:
-            	precision: 0.958217270194986'
-            	recall: 0.9272237196765498
-            	beta: 0.9424657534246575
+            	precision: 0.9452054794520548'
+            	recall: 0.9299191374663073
+            	beta: 0.9375
 
             
             Feature workclass==Local-gov:
-            	precision: 0.932258064516129'
-            	recall: 0.9367909238249594
-            	beta: 0.9345189975747777
+            	precision: 0.9484193011647255'
+            	recall: 0.9238249594813615
+            	beta: 0.9359605911330049
 
             
             Feature workclass==?:
-            	precision: 0.9337016574585635'
-            	recall: 0.8848167539267016
-            	beta: 0.9086021505376344
+            	precision: 0.9453551912568307'
+            	recall: 0.9057591623036649
+            	beta: 0.9251336898395723
 
             
             Feature workclass==Self-emp-inc:
-            	precision: 0.9546925566343042'
-            	recall: 0.9485530546623794
-            	beta: 0.9516129032258064
+            	precision: 0.9594813614262561'
+            	recall: 0.9517684887459807
+            	beta: 0.9556093623890234
 
             
             Feature workclass==Without-pay:
@@ -54,87 +54,87 @@
 
             
             Feature education==Bachelors:
-            	precision: 0.947227191413238'
-            	recall: 0.9536244934714093
-            	beta: 0.9504150774063272
+            	precision: 0.9613437643810401'
+            	recall: 0.9405673120216119
+            	beta: 0.9508420573509332
 
             
             Feature education==HS-grad:
-            	precision: 0.944372574385511'
-            	recall: 0.8716417910447761
-            	beta: 0.9065507606333437
+            	precision: 0.9462227912932138'
+            	recall: 0.8823880597014926
+            	beta: 0.9131912264442386
 
             
             Feature education==11th:
-            	precision: 0.9655172413793104'
-            	recall: 0.9333333333333333
-            	beta: 0.9491525423728815
+            	precision: 1.0'
+            	recall: 0.8833333333333333
+            	beta: 0.9380530973451328
 
             
             Feature education==Masters:
-            	precision: 0.957688338493292'
+            	precision: 0.9686847599164927'
             	recall: 0.9676746611053181
-            	beta: 0.9626556016597511
+            	beta: 0.9681794470526865
 
             
             Feature education==9th:
             	precision: 1.0'
-            	recall: 0.7777777777777778
-            	beta: 0.8750000000000001
+            	recall: 0.8888888888888888
+            	beta: 0.9411764705882353
 
             
             Feature education==Some-college:
-            	precision: 0.9566869300911854'
-            	recall: 0.9077144917087239
-            	beta: 0.9315575286718463
+            	precision: 0.9545454545454546'
+            	recall: 0.893294881038212
+            	beta: 0.9229050279329609
 
             
             Feature education==Assoc-acdm:
-            	precision: 0.9343629343629344'
-            	recall: 0.9132075471698113
-            	beta: 0.9236641221374045
+            	precision: 0.9457364341085271'
+            	recall: 0.9207547169811321
+            	beta: 0.9330783938814531
 
             
             Feature education==Assoc-voc:
-            	precision: 0.9478260869565217'
-            	recall: 0.9058171745152355
-            	beta: 0.9263456090651558
+            	precision: 0.9312320916905444'
+            	recall: 0.9002770083102493
+            	beta: 0.9154929577464789
 
             
             Feature education==7th-8th:
-            	precision: 0.9696969696969697'
-            	recall: 0.8
-            	beta: 0.8767123287671234
+            	precision: 1.0'
+            	recall: 0.875
+            	beta: 0.9333333333333333
 
             
             Feature education==Doctorate:
-            	precision: 0.961038961038961'
-            	recall: 0.9673202614379085
-            	beta: 0.9641693811074918
+            	precision: 0.9615384615384616'
+            	recall: 0.9803921568627451
+            	beta: 0.970873786407767
 
             
             Feature education==Prof-school:
-            	precision: 0.956221198156682'
-            	recall: 0.9810874704491725
-            	beta: 0.9684947491248541
+            	precision: 0.9699769053117783'
+            	recall: 0.9929078014184397
+            	beta: 0.9813084112149533
 
             
             Feature education==5th-6th:
             	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	recall: 0.75
+            	beta: 0.8571428571428571
 
             
             Feature education==10th:
-            	precision: 0.92'
-            	recall: 0.7419354838709677
-            	beta: 0.8214285714285714
+            	precision: 0.9833333333333333'
+            	recall: 0.9516129032258065
+            	beta: 0.9672131147540983
 
             
             Feature education==1st-4th:
             	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	recall: 0.8333333333333334
+            	beta: 0.9090909090909091
 
             
             Feature education==Preschool:
@@ -144,129 +144,129 @@
 
             
             Feature education==12th:
-            	precision: 0.9642857142857143'
-            	recall: 0.8181818181818182
-            	beta: 0.8852459016393442
+            	precision: 0.967741935483871'
+            	recall: 0.9090909090909091
+            	beta: 0.9374999999999999
 
             
             Feature marital-status==Never-married:
-            	precision: 0.979498861047836'
-            	recall: 0.8757637474541752
-            	beta: 0.9247311827956989
+            	precision: 0.9798657718120806'
+            	recall: 0.8920570264765784
+            	beta: 0.9339019189765458
 
             
             Feature marital-status==Married-civ-spouse:
-            	precision: 0.945970556988921'
-            	recall: 0.9314106395696354
-            	beta: 0.9386341389955576
+            	precision: 0.9539877300613497'
+            	recall: 0.9294680215182307
+            	beta: 0.9415682712685438
 
             
             Feature marital-status==Divorced:
-            	precision: 0.974477958236659'
-            	recall: 0.9071274298056156
-            	beta: 0.9395973154362417
+            	precision: 0.9805825242718447'
+            	recall: 0.8725701943844493
+            	beta: 0.9234285714285714
 
             
             Feature marital-status==Married-spouse-absent:
             	precision: 1.0'
-            	recall: 0.8823529411764706
-            	beta: 0.9375
+            	recall: 0.9411764705882353
+            	beta: 0.9696969696969697
 
             
             Feature marital-status==Separated:
-            	precision: 1.0'
-            	recall: 0.8787878787878788
-            	beta: 0.9354838709677419
+            	precision: 0.967741935483871'
+            	recall: 0.9090909090909091
+            	beta: 0.9374999999999999
 
             
             Feature marital-status==Married-AF-spouse:
             	precision: 1.0'
-            	recall: 0.8
-            	beta: 0.888888888888889
+            	recall: 0.9
+            	beta: 0.9473684210526316
 
             
             Feature marital-status==Widowed:
-            	precision: 1.0'
-            	recall: 0.8235294117647058
-            	beta: 0.9032258064516129
+            	precision: 0.9629629629629629'
+            	recall: 0.9176470588235294
+            	beta: 0.9397590361445782
 
             
             Feature occupation==Adm-clerical:
-            	precision: 0.9318637274549099'
-            	recall: 0.9171597633136095
-            	beta: 0.9244532803180914
+            	precision: 0.9377593360995851'
+            	recall: 0.8915187376725838
+            	beta: 0.9140546006066734
 
             
             Feature occupation==Exec-managerial:
-            	precision: 0.956989247311828'
-            	recall: 0.9496951219512195
-            	beta: 0.9533282325937261
+            	precision: 0.9619537275064267'
+            	recall: 0.9507113821138211
+            	beta: 0.9562995144390494
 
             
             Feature occupation==Handlers-cleaners:
-            	precision: 0.9864864864864865'
-            	recall: 0.8488372093023255
-            	beta: 0.9125
+            	precision: 1.0'
+            	recall: 0.8372093023255814
+            	beta: 0.9113924050632911
 
             
             Feature occupation==Prof-specialty:
-            	precision: 0.9553042541733979'
-            	recall: 0.9542764927380312
-            	beta: 0.9547900968783638
+            	precision: 0.9601293103448276'
+            	recall: 0.9585798816568047
+            	beta: 0.9593539703903096
 
             
             Feature occupation==Other-service:
-            	precision: 0.9833333333333333'
-            	recall: 0.8613138686131386
-            	beta: 0.9182879377431906
+            	precision: 0.990909090909091'
+            	recall: 0.7956204379562044
+            	beta: 0.8825910931174089
 
             
             Feature occupation==Sales:
-            	precision: 0.9399796541200407'
-            	recall: 0.9399796541200407
-            	beta: 0.9399796541200407
+            	precision: 0.9458333333333333'
+            	recall: 0.9237029501525941
+            	beta: 0.9346371590324242
 
             
             Feature occupation==Craft-repair:
-            	precision: 0.9465737514518002'
-            	recall: 0.8772874058127018
-            	beta: 0.9106145251396649
+            	precision: 0.9538461538461539'
+            	recall: 0.8675995694294941
+            	beta: 0.9086809470124014
 
             
             Feature occupation==Transport-moving:
-            	precision: 0.9637681159420289'
-            	recall: 0.83125
-            	beta: 0.8926174496644295
+            	precision: 0.959866220735786'
+            	recall: 0.896875
+            	beta: 0.9273021001615508
 
             
             Feature occupation==Farming-fishing:
-            	precision: 0.9439252336448598'
-            	recall: 0.8782608695652174
-            	beta: 0.9099099099099099
+            	precision: 0.970873786407767'
+            	recall: 0.8695652173913043
+            	beta: 0.9174311926605504
 
             
             Feature occupation==Machine-op-inspct:
-            	precision: 0.9279661016949152'
-            	recall: 0.876
-            	beta: 0.9012345679012346
+            	precision: 0.9594594594594594'
+            	recall: 0.852
+            	beta: 0.9025423728813559
 
             
             Feature occupation==Tech-support:
-            	precision: 0.9630996309963099'
-            	recall: 0.9222614840989399
-            	beta: 0.9422382671480144
+            	precision: 0.9633699633699634'
+            	recall: 0.9293286219081273
+            	beta: 0.9460431654676259
 
             
             Feature occupation==?:
-            	precision: 0.9337016574585635'
-            	recall: 0.8848167539267016
-            	beta: 0.9086021505376344
+            	precision: 0.9453551912568307'
+            	recall: 0.9057591623036649
+            	beta: 0.9251336898395723
 
             
             Feature occupation==Protective-serv:
-            	precision: 0.9414634146341463'
-            	recall: 0.9146919431279621
-            	beta: 0.9278846153846153
+            	precision: 0.9620853080568721'
+            	recall: 0.9620853080568721
+            	beta: 0.9620853080568721
 
             
             Feature occupation==Armed-Forces:
@@ -282,57 +282,57 @@
 
             
             Feature relationship==Not-in-family:
-            	precision: 0.9768339768339769'
-            	recall: 0.8866822429906542
-            	beta: 0.9295774647887325
+            	precision: 0.9769526248399488'
+            	recall: 0.8913551401869159
+            	beta: 0.9321930360415394
 
             
             Feature relationship==Husband:
-            	precision: 0.9463305898491083'
-            	recall: 0.9325785738425144
-            	beta: 0.9394042553191491
+            	precision: 0.9540170050321013'
+            	recall: 0.9290300777289625
+            	beta: 0.9413577604657135
 
             
             Feature relationship==Wife:
-            	precision: 0.9411764705882353'
-            	recall: 0.9234899328859061
-            	beta: 0.9322493224932249
+            	precision: 0.9521857923497268'
+            	recall: 0.9355704697986578
+            	beta: 0.943805010155721
 
             
             Feature relationship==Own-child:
-            	precision: 0.9827586206896551'
-            	recall: 0.8507462686567164
-            	beta: 0.9119999999999999
+            	precision: 0.9838709677419355'
+            	recall: 0.9104477611940298
+            	beta: 0.9457364341085271
 
             
             Feature relationship==Unmarried:
-            	precision: 0.9948717948717949'
-            	recall: 0.8899082568807339
-            	beta: 0.9394673123486683
+            	precision: 0.9896373056994818'
+            	recall: 0.8761467889908257
+            	beta: 0.9294403892944038
 
             
             Feature relationship==Other-relative:
-            	precision: 1.0'
-            	recall: 0.8648648648648649
-            	beta: 0.927536231884058
+            	precision: 0.96875'
+            	recall: 0.8378378378378378
+            	beta: 0.8985507246376812
 
             
             Feature race==White:
-            	precision: 0.9501081470800289'
-            	recall: 0.9258114374034003
-            	beta: 0.9378024480500996
+            	precision: 0.9573632130384168'
+            	recall: 0.9244063509905859
+            	beta: 0.9405961827149903
 
             
             Feature race==Black:
-            	precision: 0.9613259668508287'
+            	precision: 0.9560439560439561'
             	recall: 0.8992248062015504
-            	beta: 0.9292389853137517
+            	beta: 0.9267643142476699
 
             
             Feature race==Asian-Pac-Islander:
-            	precision: 0.9481481481481482'
-            	recall: 0.927536231884058
-            	beta: 0.9377289377289377
+            	precision: 0.9586466165413534'
+            	recall: 0.9239130434782609
+            	beta: 0.9409594095940961
 
             
             Feature race==Amer-Indian-Eskimo:
@@ -343,32 +343,32 @@
             
             Feature race==Other:
             	precision: 1.0'
-            	recall: 0.88
-            	beta: 0.9361702127659575
+            	recall: 1.0
+            	beta: 1.0
 
             
             Feature sex==Male:
-            	precision: 0.9492931776275353'
-            	recall: 0.9273491444010807
-            	beta: 0.9381928625664387
+            	precision: 0.9577114427860697'
+            	recall: 0.924647253077154
+            	beta: 0.940888956774095
 
             
             Feature sex==Female:
-            	precision: 0.9588182632050134'
-            	recall: 0.9083969465648855
-            	beta: 0.9329268292682926
+            	precision: 0.9557913351016799'
+            	recall: 0.9168787107718406
+            	beta: 0.935930735930736
 
             
             Feature native-country==United-States:
-            	precision: 0.9509255273353422'
-            	recall: 0.9241388927625157
-            	beta: 0.9373408769448373
+            	precision: 0.9565405717585909'
+            	recall: 0.9238599916329661
+            	beta: 0.939916294247003
 
             
             Feature native-country==Cuba:
-            	precision: 0.9583333333333334'
-            	recall: 0.92
-            	beta: 0.9387755102040817
+            	precision: 1.0'
+            	recall: 0.96
+            	beta: 0.9795918367346939
 
             
             Feature native-country==Jamaica:
@@ -384,27 +384,27 @@
 
             
             Feature native-country==?:
-            	precision: 0.95'
+            	precision: 0.9779411764705882'
             	recall: 0.910958904109589
-            	beta: 0.93006993006993
+            	beta: 0.9432624113475178
 
             
             Feature native-country==Mexico:
             	precision: 1.0'
-            	recall: 0.8787878787878788
-            	beta: 0.9354838709677419
+            	recall: 0.8484848484848485
+            	beta: 0.9180327868852458
 
             
             Feature native-country==South:
-            	precision: 0.7894736842105263'
-            	recall: 0.9375
-            	beta: 0.8571428571428572
+            	precision: 0.9411764705882353'
+            	recall: 1.0
+            	beta: 0.9696969696969697
 
             
             Feature native-country==Puerto-Rico:
-            	precision: 0.9230769230769231'
+            	precision: 1.0'
             	recall: 1.0
-            	beta: 0.9600000000000001
+            	beta: 1.0
 
             
             Feature native-country==Honduras:
@@ -414,69 +414,69 @@
 
             
             Feature native-country==England:
-            	precision: 1.0'
-            	recall: 0.8666666666666667
-            	beta: 0.9285714285714286
+            	precision: 0.9333333333333333'
+            	recall: 0.9333333333333333
+            	beta: 0.9333333333333333
 
             
             Feature native-country==Canada:
-            	precision: 0.9714285714285714'
-            	recall: 0.8717948717948718
-            	beta: 0.9189189189189189
+            	precision: 0.9230769230769231'
+            	recall: 0.9230769230769231
+            	beta: 0.9230769230769231
 
             
             Feature native-country==Germany:
-            	precision: 0.9130434782608695'
-            	recall: 0.9545454545454546
-            	beta: 0.9333333333333332
+            	precision: 1.0'
+            	recall: 0.8636363636363636
+            	beta: 0.9268292682926829
 
             
             Feature native-country==Iran:
-            	precision: 0.85'
+            	precision: 1.0'
             	recall: 0.9444444444444444
-            	beta: 0.8947368421052632
+            	beta: 0.9714285714285714
 
             
             Feature native-country==Philippines:
-            	precision: 0.9508196721311475'
-            	recall: 0.9508196721311475
-            	beta: 0.9508196721311475
+            	precision: 0.9491525423728814'
+            	recall: 0.9180327868852459
+            	beta: 0.9333333333333333
 
             
             Feature native-country==Italy:
-            	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	precision: 0.9583333333333334'
+            	recall: 0.92
+            	beta: 0.9387755102040817
 
             
             Feature native-country==Poland:
-            	precision: 0.9166666666666666'
-            	recall: 0.9166666666666666
-            	beta: 0.9166666666666666
+            	precision: 0.9230769230769231'
+            	recall: 1.0
+            	beta: 0.9600000000000001
 
             
             Feature native-country==Columbia:
-            	precision: 0.6666666666666666'
+            	precision: 1.0'
             	recall: 1.0
-            	beta: 0.8
+            	beta: 1.0
 
             
             Feature native-country==Cambodia:
             	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	recall: 0.7142857142857143
+            	beta: 0.8333333333333333
 
             
             Feature native-country==Thailand:
             	precision: 1.0'
-            	recall: 0.6666666666666666
-            	beta: 0.8
+            	recall: 1.0
+            	beta: 1.0
 
             
             Feature native-country==Ecuador:
-            	precision: 1.0'
+            	precision: 0.8'
             	recall: 1.0
-            	beta: 1.0
+            	beta: 0.888888888888889
 
             
             Feature native-country==Laos:
@@ -487,14 +487,14 @@
             
             Feature native-country==Taiwan:
             	precision: 1.0'
-            	recall: 0.95
-            	beta: 0.9743589743589743
+            	recall: 1.0
+            	beta: 1.0
 
             
             Feature native-country==Haiti:
             	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	recall: 0.75
+            	beta: 0.8571428571428571
 
             
             Feature native-country==Portugal:
@@ -504,39 +504,39 @@
 
             
             Feature native-country==Dominican-Republic:
-            	precision: 0.6666666666666666'
-            	recall: 1.0
-            	beta: 0.8
+            	precision: 1.0'
+            	recall: 0.5
+            	beta: 0.6666666666666666
 
             
             Feature native-country==El-Salvador:
-            	precision: 1.0'
-            	recall: 0.8888888888888888
-            	beta: 0.9411764705882353
-
-            
-            Feature native-country==France:
-            	precision: 0.9230769230769231'
-            	recall: 1.0
-            	beta: 0.9600000000000001
-
-            
-            Feature native-country==Guatemala:
             	precision: 1.0'
             	recall: 1.0
             	beta: 1.0
 
             
+            Feature native-country==France:
+            	precision: 1.0'
+            	recall: 1.0
+            	beta: 1.0
+
+            
+            Feature native-country==Guatemala:
+            	precision: 1.0'
+            	recall: 0.6666666666666666
+            	beta: 0.8
+
+            
             Feature native-country==China:
-            	precision: 0.8636363636363636'
+            	precision: 1.0'
             	recall: 0.95
-            	beta: 0.9047619047619048
+            	beta: 0.9743589743589743
 
             
             Feature native-country==Japan:
-            	precision: 1.0'
+            	precision: 0.9166666666666666'
             	recall: 0.9166666666666666
-            	beta: 0.9565217391304348
+            	beta: 0.9166666666666666
 
             
             Feature native-country==Yugoslavia:
@@ -571,8 +571,8 @@
             
             Feature native-country==Greece:
             	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	recall: 0.875
+            	beta: 0.9333333333333333
 
             
             Feature native-country==Nicaragua:
@@ -583,14 +583,14 @@
             
             Feature native-country==Vietnam:
             	precision: 1.0'
-            	recall: 1.0
-            	beta: 1.0
+            	recall: 0.8
+            	beta: 0.888888888888889
 
             
             Feature native-country==Hong:
-            	precision: 1.0'
+            	precision: 0.8333333333333334'
             	recall: 0.8333333333333334
-            	beta: 0.9090909090909091
+            	beta: 0.8333333333333334
 
             
             Feature native-country==Ireland:
