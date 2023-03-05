@@ -1,7 +1,8 @@
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
-from ml.data import process_data
+
+from starter.ml.data import process_data
 
 import pickle
 
@@ -43,18 +44,34 @@ def save_model(model, filepath):
     with open(filepath, 'wb') as model_file:
         pickle.dump(model, model_file)
 
-def compute_model_performance_on_slices(data, features, cat_features, model):
+def load(filepath):
+    """ Load model from pickle in filepath
+
+    Inputs
+    ------
+    filepath : str
+        Path for the file.
+    Returns
+    -------
+    model : ???
+        Trained machine learning model.
+    """
+    with open(filepath, 'rb') as model_file:
+        model = pickle.load(model_file)
+    return model
+
+def compute_model_performance_on_slices(data, label, features, cat_features, model, encoder, lb):
     """
     Compute models performance with precision, recall, and F1 by slicing data.
 
     Inputs
     ------
     data : pd.DataFrame
-        Unprocessed data to compute metrics
+        Processed data to compute metrics
+    label : str
+        Name of the label column in data.
     features : list[str]
         Name of the features to slice.
-    categorical_features : list[str]
-        List containing the names of the categorical features (default=[])
     model : ???
         Trained machine learning model.
     Returns
@@ -62,33 +79,35 @@ def compute_model_performance_on_slices(data, features, cat_features, model):
     model_performance_df : pd.DataFrame
         DataFrame with the evaluated performance.
     """
-    model_performance_df = pd.DataFrame(columns=['constant_column','precision', 'recall', 'fbeta'])
 
     all_performance = ''
+    model_performance = []
     for feature in features:
-        data_to_test = data[data["class"] == feature]
+        values = data[feature].unique()
+        for value in values:
+            data_to_test = data[data[feature] == value]
+            print(cat_features)
+            X_slice, y_slice, _, _ = process_data(
+                data_to_test, categorical_features=cat_features, label=label, training=False, encoder=encoder, lb=lb
+            )
+            preds = inference(model, X_slice)
 
-        X, y, encoder, lb = process_data(
-            data_to_test, categorical_features=cat_features, label="salary", training=True
-        )
+            precision, recall, fbeta = compute_model_metrics(y_slice, preds)
 
-        preds = inference(model, X)
+            run_performance = f'''
+            Feature {feature}=={value}:
+            \tprecision: {precision}'
+            \trecall: {recall}
+            \tbeta: {fbeta}
 
-        precision, recall, fbeta = compute_model_metrics(X, preds)
+            '''
+            print(run_performance)
 
-        run_performance = f'''
-        Feature {feature}:
-        \tprecision: {precision}'
-        \trecall: {recall}
-        \fbeta: {fbeta}
+            all_performance += run_performance
+            model_performance.append([feature, value, precision, recall, fbeta])
+    model_performance_df = pd.DataFrame(model_performance, columns=['constant_column','value','precision', 'recall', 'fbeta'])
 
-        '''
-        print(run_performance)
-
-        all_performance += run_performance
-        model_performance_df.append([feature, precision, recall, fbeta])
-
-    with open('slice_output.txt', 'wb') as performance_file:
+    with open('slice_output.txt', 'w') as performance_file:
         performance_file.write(all_performance)
 
     return model_performance_df
