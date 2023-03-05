@@ -3,7 +3,7 @@
 from typing import Union 
 
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 import pandas as pd
 
@@ -14,20 +14,20 @@ def hyphenazier(string: str) -> str:
     return string.replace('_', '-')
 
 class CensusData(BaseModel):
-    age: int
-    workclass: str
-    fnlgt: int
-    education: str
-    education_num: int
-    marital_status: str
-    occupation: str
-    relationship: str
-    race: str
-    sex: str
-    capital_gain: int
-    capital_loss: int
-    hours_per_week: int
-    native_country: str
+    age: int = Field(example = 40)
+    workclass: str = Field(example = 'Private')
+    fnlgt: int = Field(example = 121772)
+    education: str = Field(example = 'Assoc-voc')
+    education_num: int = Field(example = 11)
+    marital_status: str = Field(example = 'Married-civ-spouse')
+    occupation: str = Field(example = 'Craft-repair')
+    relationship: str = Field(example = 'Husband')
+    race: str = Field(example = 'Asian-Pac-Islander')
+    sex: str = Field(example = 'Male')
+    capital_gain: int = Field(example = 0)
+    capital_loss: int = Field(example = 0)
+    hours_per_week: int = Field(example = 40)
+    native_country: str = Field(example = 'United-States')
 
     class Config:
         alias_generator = hyphenazier
