@@ -26,5 +26,8 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 
 ## Ethical Considerations
 - This solution is not to be used on other Udacity's projects.
+- Model was trained in data that included marital-status, relationship, race, sex and native-country. The use of those information could lead to an unfair bias in the analysis of the model output.
+- The data was obtained via census of the United States Census Bureau and should be used with caution when making inferences for data outside of this country.
 
 ## Caveats and Recommendations
+- Training data has missing values, denoted as '?', specially for wokclass, occupation and native-country.
